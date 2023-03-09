@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Wordle Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="wordle.css">
+        
+    </head>
+    <body>
+        <div class="intro">
+            <div class="title">
+                <p>Wordle Game <p> Worked by Afsana<p></p>
+            </div>
+                
+            </div>
+            
+        
+        </div>
+        
+
+        <div class="container">
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+            <div class="row" data-tooltip="">
+                <div class="box"></div><div class="box"></div><div class="box"></div>
+                <div class="box"></div><div class="box"></div>
+            </div>
+        </div>
+
+        <div id="input-container">
+            <div class="input-row">
+                <button onclick="keyboardEvent(event)">Q</button>
+                <button onclick="keyboardEvent(event)">W</button>
+                <button onclick="keyboardEvent(event)">E</button>
+                <button onclick="keyboardEvent(event)">R</button>
+                <button onclick="keyboardEvent(event)">T</button>
+                <button onclick="keyboardEvent(event)">Y</button>
+                <button onclick="keyboardEvent(event)">U</button>
+                <button onclick="keyboardEvent(event)">I</button>
+                <button onclick="keyboardEvent(event)">O</button>
+                <button onclick="keyboardEvent(event)">P</button>
+            </div>
+            <div class="input-row">
+                <button onclick="keyboardEvent(event)">A</button><button onclick="keyboardEvent(event)">S</button>
+                <button onclick="keyboardEvent(event)">D</button><button onclick="keyboardEvent(event)">F</button>
+                <button onclick="keyboardEvent(event)">G</button><button onclick="keyboardEvent(event)">H</button>
+                <button onclick="keyboardEvent(event)">J</button><button onclick="keyboardEvent(event)">K</button>
+                <button onclick="keyboardEvent(event)">L</button>
+            </div>
+            <div class="input-row">
+                <button class="special" onclick="keyboardEvent(event)">Enter</button>
+                <button onclick="keyboardEvent(event)">Z</button><button onclick="keyboardEvent(event)">X</button>
+                <button onclick="keyboardEvent(event)">C</button><button onclick="keyboardEvent(event)">V</button>
+                <button onclick="keyboardEvent(event)">B</button><button onclick="keyboardEvent(event)">N</button>
+                <button onclick="keyboardEvent(event)">M</button>
+                <button class="special" onclick="keyboardEvent(event)">Del</button>
+            </div>
+        </div>
+        
+        
+        <script src="wordle.js"></script>
+        
+       
+    </body>
+</html>
